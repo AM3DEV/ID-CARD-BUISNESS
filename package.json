@@ -1,0 +1,46 @@
+{
+  "name": "econexus-id-card-panel",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@supabase/supabase-js": "2.117.3",
+    "expo": "~57.0.29",
+    "expo-asset": "~57.0.20",
+    "expo-constants": "~57.0.22",
+    "expo-file-system": "~57.0.7",
+    "expo-image-manipulator": "^57.0.21",
+    "expo-image-picker": "~57.0.20",
+    "expo-print": "~57.0.2",
+    "expo-router": "~57.0.27",
+    "expo-sharing": "~57.0.23",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-web": "~0.21.0",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@types/react": "~19.2.10",
+    "typescript": "^5.9.2"
+  },
+  "expo": {
+    "install": {
+      "exclude": [
+        "react-native-web"
+      ]
+    }
+  }
+}

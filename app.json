@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "ECONEXUS - ID Card Panel",
+    "slug": "sanida-id",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "scheme": "econexus-id",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F3B66"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F3B66"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png",
+      "name": "ECONEXUS - ID Card Panel",
+      "shortName": "ECONEXUS ID",
+      "lang": "fr",
+      "backgroundColor": "#F1F5F9",
+      "themeColor": "#0F3B66"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "L'application a besoin d'accéder à vos photos pour les portraits des membres."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "65ddef17-ec6d-46e2-bb00-4c696e3163c3"
+      }
+    },
+    "owner": "am3.wav"
+  }
+}
